@@ -58,3 +58,17 @@ nav{
 .nav_middle .search-box img{
     width: 15px;
 }
+/* side-bar */
+/* .sidebar{
+    background: #fff;
+    width: 15px;
+    height: auto;
+    position: fixed;
+    top: 0;
+    padding-left: 2px;
+    padding-top: 60px;
+} */
+.shortcut-link{
+    height: 10px;
+    width: auto;
+}
