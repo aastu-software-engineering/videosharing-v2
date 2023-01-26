@@ -11,6 +11,20 @@
     display: flex;
     flex: 1;
 }
+.like{
+    margin-left: 10px;
+    border-radius: 10;px
+}
+.like:hover{
+    background-color: aqua;
+    color: #1E1E1E;
+}
+.like:focus{
+    background-color:black;
+    color: white;
+    box-shadow: 2px 2px 5px #fc894d;
+    
+}
 
 main{
     margin-left: 10px;
