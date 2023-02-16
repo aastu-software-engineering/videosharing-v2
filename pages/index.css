@@ -4,6 +4,7 @@
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
 }
+
 a{
     text-decoration: none;
     color: #5a5a5a;
@@ -15,11 +16,17 @@ img{
     display: flex;
     align-items: center;
 }
+.fa{
+margin-right: 20px;
+color: white;
+
+}
 nav{
     padding: 10px 2%;
     justify-content: space-between;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    background-color: #fff;
+    background-color: #0b1116;
+    ;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -60,7 +67,7 @@ nav{
 }
 /* side-bar */
 .sidebar{
-    background: #fff;
+    background-color: #0b1116;
     width: 15%;
     height: 100vh;
     position: fixed;
@@ -84,7 +91,7 @@ nav{
 .sidebar hr{
     border: 0;
     height: 1px;
-    background: #ccc;
+    background:#130303;
     width: 85%;
 }
 .subscribed-list h3{
@@ -106,7 +113,7 @@ nav{
 }
 /* main  */
 .container{
-    background: #f9f9f9;
+    background-color: #130303;
     padding-left: 17%;
     padding-right: 2%;
     padding-top: 20px;
@@ -135,6 +142,49 @@ nav{
     width: 35px;
     margin-right: 10px;
     border-radius: 50%;
-
-
+}
+@media screen and (max-width: 650px) {
+    .sidebar{
+        width: 3opx;
+    }
+    nav{
+        
+        height: 20px;
+    }
+    .nav_right{
+        width
+    }
+    .nav_right .user-icon{
+        width: 20px;
+        border-radius: 50%;
+        margin-right: 0;
+    }
+    .t{
+        display: none;
+    }
+    .subscribed-list{
+        display: none;
+    }
+    .nav_left .logo{
+        width: 20px;
+        height: 20px;
+        margin-top: 5px;
+    }
+    .flex-div{
+        width: 400px;
+        height: 30px;
+    }
+    .tex{
+        display: none;
+    }
+    .nav_middle .search-box{
+        width:200px ;
+        height: 10px;
+    }
+    .shortcut-links{
+        width: 50px;
+    }
+    .subscribed-list{
+        width: 50px;
+    }
 }
