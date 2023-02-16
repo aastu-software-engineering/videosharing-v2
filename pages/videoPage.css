@@ -13,7 +13,7 @@
 }
 .like{
     margin-left: 10px;
-    border-radius: 10;px
+    border-radius: 10px;
 }
 .like:hover{
     background-color: aqua;
@@ -50,23 +50,58 @@ main{
     margin-right: 30px;
     float: left;
 }
-.input{
-    width: 700px;
-    Height: 20px;
-    background-color: #1E1E1E;
-    border-radius: 40px;
-    border: 1px solid azure;
-    color: white;
-    text-align: justify;
-    margin-top: 20px;
-    margin-left: 50px;
-   
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #0b1116;
+    ;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
-input[type=text]:focus{
-    background-color:   #091f36;      
-    box-shadow: 0 0 0 2px rgb(42, 28, 1); 
-    
-  }
+
+.nav_left .logo{
+    width: 40px;
+    height: auto;
+}
+.nav_right img{
+    width: 30px;
+    height: auto;
+    margin-right: 25px;
+}
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+.fa{
+margin-right: 20px;
+color: black;
+
+}
+header{
+    background-color: #0b1116;
+}
+.nav_right .user-icon{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 0;
+}
+.nav_middle .search-box{
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+.nav_middle .search-box input{
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+.nav_middle .search-box img{
+    width: 15px;
+}
   .video{
     height: 450px;
     width: 900;
@@ -89,7 +124,7 @@ input[type=text]:focus{
     
 }
 .comment{
-    align: center;
+    
     border-color: azure;
     color: azure;
     width: 300px;
@@ -126,7 +161,7 @@ input[type=text]:focus{
 }
 @media screen and (max-width: 650px) {
     .header{
-        width: max-content;
+        width: 400px;
         height: 20px;
     }
     .input{
@@ -137,12 +172,21 @@ input[type=text]:focus{
   height: 250px;
     width: 400px;
 }
+.nav_middle .search-box{
+    border: 1px solid #ccc;
+    width: 200px;
+    border-radius: 25px;
+}
+
 .bottom{
     display: inline-block;
     width: 300px;
 }.right{
     display: none;
     
+}
+.tex{
+    display: none;
 }
 
 }
