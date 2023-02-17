@@ -33,10 +33,8 @@
         <div class="content">
             
         
-         <main>
-<video class="video" controls autoplay>
-    <source class="videoss" src="../assets/pictures/HTML in 5 minutes.mp4" type="video/mp4">
-</video>
+         <main id="mainImg">
+
 <div class="videoDetail">
     <small>#educational #coding</small>
    <p> <h2><font color="white">Html and Css for beginners</font></h2></p>
@@ -88,9 +86,25 @@
             </div>
         </aside>
     </div>
-    <script src="video.js" >
-
+    <script>
+        
+        
+        document.querySelector("#mainImg").innerHTML = `
+                            <video class="video" autoplay controls class="videos">
+                                <source class="videoss" src="${localStorage.getItem("film")}" type="video/mp4">
+                            </video>
+        ` + document.querySelector("#mainImg").innerHTML
     </script>
+<script >
+
+    
+          let vid=document.getElementsByClassName("videoss");
+          function loads(){
+            if(document.addEventListener("load")){
+            vid.src=localStorage.getItem("id");
+          }} 
+        </script>
+        
            
         
     </body>
