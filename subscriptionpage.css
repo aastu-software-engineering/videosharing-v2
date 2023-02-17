@@ -9,6 +9,50 @@ body{
     display: grid;
     grid-template-columns: auto auto;
 }
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #0b1116;
+    ;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.nav_left .menu-icon{
+    width: 22px;
+    margin-right: 25px;
+    height: auto;
+}
+.nav_left .logo{
+    width: 40px;
+    height: auto;
+}
+.nav_right img{
+    width: 30px;
+    height: auto;
+    margin-right: 25px;
+}
+.nav_right .user-icon{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 0;
+}
+.nav_middle .search-box{
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+.nav_middle .search-box input{
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+.nav_middle .search-box img{
+    width: 15px;
+}
 
 .profile{
     margin-left: 30px;
