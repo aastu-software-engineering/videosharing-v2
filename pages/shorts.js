@@ -18,7 +18,7 @@ let vid = {
     "1": {
         "title": "The Last of Us Part II",
         "description": "The Last of Us Part II is an upcoming action-adventure game developed by Naughty Dog and published by Sony Interactive Entertainment for the PlayStation 4. It is scheduled to be released on June 19, 2020.",
-        "video": "../assets/videos/jp.mp4",
+        "video": "../assets/videos/y2mate.com - Joe Rogan Examines Ancient Flood Evidence_360p.mp4",
         "profile": "https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_0.jpg",
         "channel": "Naughty Dog",
         "views": "1.2M",
@@ -29,7 +29,7 @@ let vid = {
     "2": {
         "title": "Super Mario 3D All-Stars",
         "description": "Super Mario 3D All-Stars is a compilation of three Super Mario platform games developed by Nintendo for the Nintendo Switch. It was released on September 18, 2020.",
-        "video": "../assets/videos/jp.mp4",
+        "video": "../assets/videos/y2mate.com - Taking Revenge on a Disney Employee_v240P.mp4",
         "profile": "https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_0.jpg",
         "channel": "Nintendo",
         "views": "1.2M",
